@@ -1,0 +1,47 @@
+footer {
+background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat centerb-sizing: border-box;
+  display: table;
+  width: 100vw;
+  text-align: center;
+  padding: 1rem;
+  background: black;
+  height: 8rem;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.875rem
+}
+
+.wrap {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+
+.wrapper {
+  display: table-cell;
+  vertical-align: mi'ddle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+  
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+strong {
+  font-weight: 700;
+}
